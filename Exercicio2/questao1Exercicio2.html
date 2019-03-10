@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"> <!--Padrão para caracteres-->
+    <title>Escola Virtual</title><!--Título da Página-->
+</head>
+<body>
+	<header align="center"><!--Cabeçalho da Página-->
+  		<h2>Escola Virtual</h2>
+  		<h3>Formulário de Pré-Matrícula</h3>
+  		<hr>
+	</header>
+    <form action="exercicio_page.html" method="POST"><!--Inicio do fomulário-->
+    	<fieldset><!--Agrupa elementos relacionados no formulário na 1 tabela-->
+			<table width="500px"><!--Cria a 1 tabela-->
+				<tr><!--1 linha da tabela 1-->
+					<th align="left">Dados Pessoais:<br></th><!--Cabeçalho da tabela 1 na linha 1-->
+				</tr>
+				<tr><!--2 linha da tabela 1-->
+    				<td align="right">Nome do Aluno:</td><!--1 coluna da linha 2 da tabela-->
+    				<td colspan="3"><input type="text" name="nome" size="35" maxlength="55"/></td><!--2 coluna da linha 2 da tabela 1-->
+    			</tr>
+
+    			<tr><!--3 linha da tabela 1-->
+    				<td align="right">Nascimento(dd/mm/aaaa):</td><!--1 coluna da linha 3 da tabela 1-->
+    				<td colspan="3"><input type="text" name="dia" size="4" maxlength="2"/> /
+    				<input type="text" name="mes" size="4" maxlength="2"/> / 
+    				<input type="text" name="ano" size="4" maxlength="4"/></td><!--2 coluna da linha 3 da tabela 1-->
+    			</tr>
+
+    			<tr><!--4 linha da tabela 1-->
+    				<td align="right">Nome da Mãe:</td><!--1 coluna da linha 4 da tabela 1-->
+    				<td colspan="3"><input type="text" name="mae" size="35" maxlength="55"/></td><!--2 coluna da linha 4 da tabela 1-->
+    			</tr>
+
+    			<tr><!--5 linha da tabela 1-->
+    				<td align="right">Nome do Pai:</td><!--1 coluna da linha 5 da tabela 1-->
+    				<td colspan="3"><input type="text" name="pai" size="35" maxlength="55"></td><!--2 coluna da linha 5 da tabela 1-->
+    			</tr>
+
+    			<tr><!--6 linha da tabela 1-->
+    				<td align="right">Telefone:</td><!--1 coluna da linha 6 da tabela 1-->
+    				<td colspan="3">DDD(<input type="tel" name="ddd" size="2" maxlength="2">)
+    				Tel:<input type="tel" name="telefone" size="6" maxlength="9"/>
+    				Ramal:<input type="tel" name="ramal" size="4" maxlength="4"/></td><!--2 coluna da linha 6 da tabela 1-->
+    			</tr>
+
+    			<tr><!--7 linha da tabela 1-->
+    				<td align="right">Email:</td><!--1 coluna da linha 7 da tabela 1-->
+    				<td><input type="text" name="email" size="40" maxlength="40"/></td><!--2 coluna da linha 7 da tabela 1-->
+    			</tr>
+			</table><!--Fim da tabela 1-->
+		</fieldset><!--Fim do agrupamento do formulário na tabela 1-->
+		<fieldset><!--Agrupa elementos relacionados no formulário na tabela 2-->
+			<table width="500px"><!--Cria a 2 tabela-->
+				<tr align="left" colspan="3"><!--1 linha da tabela 2-->
+					<th>Informações de Matrícula:</th><!--Cabeçalho da tabela 1 na linha 1-->
+				</tr>
+
+				<tr><!--2 linha da tabela 2-->
+					<td>Série:</td><!--1 coluna da linha 2 da tabela 2-->
+					<td colspan="2">Turno:</td><!--2 coluna da linha 2 da tabela 2-->
+					<td>Atividades Extracurriculares</td><!--3 coluna da linha 2 da tabela 2-->
+				</tr>
+
+				<tr><!--3 linha da tabela 2-->
+					<td>
+						<select name="serie">
+							<option value="0">Pré-Escolar</option>
+							<option value="1">Ensino Fundamental</option>
+							<option value="2">Ensino Médio</option>
+							<option value="3">Graduação</option>
+							<option value="4">Pós-Graduação</option>
+						</select>
+					</td>
+					<td colspan="2"><input type="radio" name="turno" value="manha">Manhã</td>
+					<td><input type="checkbox" name="informatica">Informática</td>
+				</tr>
+
+				<tr><!--4 linha da tabela 2-->
+					<td></td><td><input type="radio" name="turno" value="tarde">Tarde</td>
+					<td></td><td><input type="checkbox" name="musica">Musica</td>
+				</tr>
+
+				<tr><!--5 linha da tabela 2-->
+					<td></td><td></td><td></td><td><input type="checkbox" name="balet">Balet</td>
+				</tr>
+
+				<tr><!--6 linha da tabela 2-->
+					<td></td><td></td><td></td><td><input type="checkbox" name="pintura">Pintura</td>
+				</tr>
+
+				<tr><!--7 linha da tabela 2-->
+					<td></td><td></td><td></td><td><input type="checkbox" name="judo">Judô</td>
+				</tr>
+
+				<tr><!--8 linha da tabela 2-->
+					<td></td><td></td><td></td><td><input type="checkbox" name="futebol">Futebol</td>
+				</tr>
+			</table>
+		</fieldset>
+		<center>			
+			<input type="submit" value="Envia Formulário"/>&nbsp;&nbsp;
+			<input type="reset" value="Limpa Campos"/>
+		</center>
+	</form>
+</body>
+</html>
