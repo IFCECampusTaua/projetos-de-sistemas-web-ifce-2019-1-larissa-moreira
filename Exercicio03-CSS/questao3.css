@@ -1,0 +1,65 @@
+/**FORMATAÇÃO DA QUESTÂO 3 EM CSS**/
+table{
+	border: 1px solid #DDDDDD;
+	border-collapse: collapse;
+	font-family: arial;
+	width: 530px;
+	height:250px;
+	padding: 0px;
+	margin: 240px 300px 200px 400px;
+}
+table th{
+	font-size: 13px;
+	color: #999999;
+	font-weight: bold;
+	text-align: center;
+}
+.azulmarinho {
+	color: #003366;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+#azulceleste{
+	color: #1398BE;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+.laranja{
+	color: #DE9800;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+.time{
+	font-size: 14px;
+	color: #666666;
+	font-weight: bold;
+	text-align: left;
+}
+.pontos{
+	font-size: 14px;
+	color: #000000;
+	font-weight: bold;
+	text-align: center;
+	background: #F7F7F7;
+}
+table td{
+	font-size: 14px;
+	color: #666666;
+	font-weight: normal;
+	text-align: center;
+	border-top: 1px solid #DDDDDD;
+	border-left: none;
+	width: 15px;
+}
+.corfundo{
+	background: #F7F7F7;
+}
+#classe1, #classe2, #classe3, #classe4, #classe6{
+	border-top: 1px solid #DDDDDD;
+}
+#classe5{
+	border-top: 2px solid #CCCCCC;
+}

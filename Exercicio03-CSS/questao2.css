@@ -1,0 +1,53 @@
+/**FORMATAÇÃO DA QUESTÃO 2 EM CSS**/
+body{
+	background: rgb(225,225,225);
+}
+div#total{
+	width: 945px;
+	height: 165px;
+	margin: 0px auto;
+}
+div#cabecalho{
+	background-color: #007FFF;
+	margin: 0px;
+	width: auto;
+	height: 300px;
+	border: none;
+}
+#cabecalho h1{
+	color: #FFFFFF;
+	font-family: arial;
+	padding: 80px 0px 100px 320px;
+}
+div#menu{
+	background-color: #002FFF;
+	margin: 0px;
+	width: auto;
+	height: 100px;
+	border: none;
+}
+#menu a{
+	color: #FFFFFF;
+	font-family: arial;
+	text-decoration: none;
+	margin-top: 25px;
+	margin-left: 150px;
+	display: block;
+	float: left;
+}
+div#secao{
+	background-color: #FFFFFF;
+	width: 900px;
+	height: 500px;
+	margin: 20px;
+	border-radius: 5px;
+}
+#secao h1{
+	font-family: arial;
+	padding: 20px 0px 0px 10px;
+}
+#secao p{
+	color: #000000;
+	font-family: arial;
+	padding: 15px 10px 0px 10px;
+}
