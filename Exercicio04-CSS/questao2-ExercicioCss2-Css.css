@@ -1,0 +1,119 @@
+/**FORMATAÇÃO CSS PARA A QUESTÃO 04 DO EXERCICIO 02 DE CSS**/
+#menu{
+	padding:20px;
+	background-color: black;
+	text-align: center;
+	margin-bottom: 10px;
+	width: 1300px;
+	height: 50px
+
+}
+#nomePagina{
+	float: left;
+	font-size: 22px;
+}
+
+a{
+	float: right;
+	text-decoration: none;
+	padding: 8px 12px;
+	color: #767676;
+	font-family: arial;
+}
+#inicio{
+	width: 1300px;
+	margin-top: 30px;
+	margin-bottom: 50px;
+	padding: 50px;
+}
+#item{
+	font-size: 40px;
+	margin-right: 20px;
+}
+#pesquisa{
+	width: 600px;
+	height: 40px;
+	margin-left: 30px;
+	border: solid 1px #000000;
+	border-radius: 2px;
+}
+#btnPesquisa{
+	background: #3232CD;
+	border-radius: 4px;
+	margin-right: 10px; 
+	width: 140px;
+	height: 50px;
+}
+table {
+  border-collapse: collapse;
+  font-family: arial;
+  width: auto;
+  margin-left: 20px;
+
+}
+th, td {
+  text-align: left;
+}
+tr:nth-child(even) {
+	background-color: #F8F8F8;
+}
+#cabecalho1{
+	width: 5px;
+	border-top: 2px;
+}
+#cabecalho2{
+	width: 500px;
+
+}
+#cabecalho3{
+	width: 150px;
+	padding-left: 70px;
+	padding-right: 0px;
+
+}
+#cabecalho4{
+	width: 150px;
+	padding-left: 0px;
+
+}
+#cabecalho5{
+	width: 0px;
+
+}
+#cabecalho6{
+	width: 0px;
+}
+#cabecalho7{
+	width: 40px;
+	padding-right: 40px;
+}
+.numero{
+	width: 80px;
+	height: 40px;
+}
+.header1{
+	width: 300px;
+}
+.header2{
+	width: 200px;
+	padding-left: 70px;
+}
+.header3{
+	width: 200px;
+	padding-right: 10px;
+}
+.btnverde{
+	background: #228B22;
+}
+
+.btnamarelo{
+	background: #FF7F00;
+}
+.btnvermelho{
+	background: #FF0000;
+}
+input{
+	color: white;
+	border: solid 1px;
+	border-radius: 4px;
+}
