@@ -1,0 +1,14 @@
+#btn{
+	text-align: center;
+	color: white;
+	background: #33ff33;
+	border: solid 2px #33ff33;
+	border-radius: 2px;
+	width: 120px;
+	height: 60px;
+	margin-left: 600px;
+	margin-top: 250px;
+}
+#number{
+	margin-left: 650px;
+}
